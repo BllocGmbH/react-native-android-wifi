@@ -17,10 +17,6 @@ public class AndroidWifiPackage implements ReactPackage {
     modules.add(new AndroidWifiModule(reactContext));
     return modules;
   }
-  @Override
-  public List<Class<? extends JavaScriptModule>> createJSModules() {
-      return Collections.emptyList();
-  }
 
   @Override
   public List<ViewManager> createViewManagers(ReactApplicationContext reactContext) {
